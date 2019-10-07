@@ -5,6 +5,7 @@
  */
 package Movimientos.Abajo;
 
+import java.awt.Image;
 import javax.swing.ImageIcon;
 
 /**
@@ -12,10 +13,17 @@ import javax.swing.ImageIcon;
  * @author Kevin Garcia
  */
 public class AbajoDanios extends Abajo{
+    
+    ImageIcon img;
 
     @Override
     public ImageIcon[] getSprites() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       // abajo = {};
+        /*Image[][] ataqueShiny = {{new ImageIcon(getClass().getResource("../Steve/AtaqueShiny0.png")).getImage(),
+            new ImageIcon(getClass().getResource("../Steve/AtaqueShiny1.png")).getImage(),
+            new ImageIcon(getClass().getResource("../Steve/AtaqueShiny2.png")).getImage(),
+            new ImageIcon(getClass().getResource("../Steve/AtaqueShiny3.png")).getImage()
+        }*/
     }
     
 }

@@ -12,5 +12,8 @@ import javax.swing.ImageIcon;
  * @author Kevin Garcia
  */
 public abstract class Abajo {
+    
+    public ImageIcon[] abajo;
+    
     public abstract ImageIcon[] getSprites();
 }
