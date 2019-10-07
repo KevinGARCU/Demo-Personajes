@@ -5,6 +5,7 @@
  */
 package Movimientos.Abajo;
 
+import java.awt.Image;
 import javax.swing.ImageIcon;
 
 /**
@@ -13,7 +14,7 @@ import javax.swing.ImageIcon;
  */
 public abstract class Abajo {
     
-    public ImageIcon[] abajo;
+    public Image[] abajo;
     
-    public abstract ImageIcon[] getSprites();
+    public abstract Image[] getSprites();
 }
